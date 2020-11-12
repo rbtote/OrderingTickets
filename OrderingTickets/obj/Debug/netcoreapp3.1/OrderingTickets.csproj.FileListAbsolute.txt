@@ -1,0 +1,15 @@
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.csprojAssemblyReference.cache
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.AssemblyInfoInputs.cache
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.AssemblyInfo.cs
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.csproj.CoreCompileInputs.cache
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\OrderingTickets.exe
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\OrderingTickets.deps.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\OrderingTickets.runtimeconfig.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\OrderingTickets.runtimeconfig.dev.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\OrderingTickets.dll
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\OrderingTickets.pdb
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.csproj.CopyComplete
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.dll
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.pdb
+C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.genruntimeconfig.cache

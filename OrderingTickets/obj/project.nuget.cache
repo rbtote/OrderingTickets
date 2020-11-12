@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OyaW3l/ry2kasTIDtVqQ+Z9qW52PDE4oO1sqg8+jRSQqq844oZ/NC8ThH7+XvcQ9DRoSEYxc90QOR2UQCtNFpg==",
+  "success": true,
+  "projectFilePath": "C:\\CEMEX\\OrderingTickets\\OrderingTickets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rober\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
