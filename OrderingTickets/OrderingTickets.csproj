@@ -6,7 +6,41 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="TestCases\response1.json" />
+    <None Remove="TestCases\response2.json" />
+    <None Remove="TestCases\response3.json" />
+    <None Remove="TestCases\response4.json" />
+    <None Remove="TestCases\response5.json" />
+    <None Remove="TestCases\response6.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestCases\response1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestCases\response2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestCases\response3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestCases\response4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestCases\response5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestCases\response6.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>

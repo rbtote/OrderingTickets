@@ -49,7 +49,7 @@ namespace OrderingTickets.Test
             //Tickets ordered by IL's requirements
             Assert.IsTrue(ticketsILv3[0].ExternalDelivery.Equals("9111111111"));
             Assert.IsTrue(ticketsILv3[3].ExternalDelivery.Equals("224567890"));
-            Assert.IsTrue(ticketsILv3[5].ExternalDelivery.Equals("5400121267"));
+            Assert.IsTrue(ticketsILv3[5].ExternalDelivery.Equals("5400121267"),"Failed in index "+5);
 
              
              //Tickets are not sorted because it's Mexico

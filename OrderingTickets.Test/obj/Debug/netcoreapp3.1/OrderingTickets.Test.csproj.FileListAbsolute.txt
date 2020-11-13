@@ -95,3 +95,11 @@ C:\CEMEX\OrderingTickets.Test\obj\Debug\netcoreapp3.1\OrderingTickets.Test.cspro
 C:\CEMEX\OrderingTickets.Test\obj\Debug\netcoreapp3.1\OrderingTickets.Test.dll
 C:\CEMEX\OrderingTickets.Test\obj\Debug\netcoreapp3.1\OrderingTickets.Test.pdb
 C:\CEMEX\OrderingTickets.Test\obj\Debug\netcoreapp3.1\OrderingTickets.Test.genruntimeconfig.cache
+C:\CEMEX\OrderingTickets.Test\bin\Debug\netcoreapp3.1\TestCases\response1.json
+C:\CEMEX\OrderingTickets.Test\bin\Debug\netcoreapp3.1\TestCases\response2.json
+C:\CEMEX\OrderingTickets.Test\bin\Debug\netcoreapp3.1\TestCases\response3.json
+C:\CEMEX\OrderingTickets.Test\bin\Debug\netcoreapp3.1\TestCases\response4.json
+C:\CEMEX\OrderingTickets.Test\bin\Debug\netcoreapp3.1\TestCases\response5.json
+C:\CEMEX\OrderingTickets.Test\bin\Debug\netcoreapp3.1\TestCases\response6.json
+C:\CEMEX\OrderingTickets.Test\obj\Debug\netcoreapp3.1\OrderingTickets.Test.Properties.Resources.resources
+C:\CEMEX\OrderingTickets.Test\obj\Debug\netcoreapp3.1\OrderingTickets.Test.csproj.GenerateResource.cache

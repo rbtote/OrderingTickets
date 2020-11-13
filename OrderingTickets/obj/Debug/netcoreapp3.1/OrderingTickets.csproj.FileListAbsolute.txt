@@ -13,3 +13,9 @@ C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.csproj.CopyComp
 C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.dll
 C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.pdb
 C:\CEMEX\OrderingTickets\obj\Debug\netcoreapp3.1\OrderingTickets.genruntimeconfig.cache
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\TestCases\response1.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\TestCases\response2.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\TestCases\response3.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\TestCases\response4.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\TestCases\response5.json
+C:\CEMEX\OrderingTickets\bin\Debug\netcoreapp3.1\TestCases\response6.json

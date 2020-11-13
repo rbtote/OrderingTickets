@@ -1,0 +1,78 @@
+[
+    {
+      "contract": "",
+      "externalDelivery": "5400121267",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    },{
+      "contract": "",
+      "externalDelivery": "91111111111",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    },{
+      "contract": "",
+      "externalDelivery": "95400121267",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    },{
+      "contract": "",
+      "externalDelivery": "1111111111",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    },{
+      "contract": "",
+      "externalDelivery": "224567890",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    },
+    {
+      "contract": "",
+      "externalDelivery": "9224567890",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304514451",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    }
+    ,{
+      "contract": "",
+      "externalDelivery": "91234567890",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    }
+    ,{
+      "contract": "",
+      "externalDelivery": "224567890",
+      "pointOfDeliveryCode": "0065274265",
+      "purchaseOrder": "",
+      "docDate": "2018-03-16T00:00:00",
+      "pointOfDeliveryDesc": "יבנה, שיק רח' הירקון 32",
+      "ticketCode": "0304590817",
+      "pointOfDeliveryAddress": "שיק רח' הירקון 32"
+    }
+  ]

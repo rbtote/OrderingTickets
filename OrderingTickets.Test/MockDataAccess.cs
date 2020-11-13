@@ -15,7 +15,7 @@ namespace OrderingTickets.Test
         /// <returns>A list of type <see cref="TicketResponse"/>></returns>
         public List<TicketResponse> getData(string file)
         {
-            string jsonString = File.ReadAllText(file);
+            string jsonString = File.ReadAllText("../../../TestCases/" + file);
             return JsonConvert.DeserializeObject<List<TicketResponse>>(jsonString);
         }
     }
