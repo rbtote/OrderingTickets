@@ -37,7 +37,6 @@ namespace OrderingTickets.Test
             Assert.IsNotNull(ticketsILv4); //Receives empty list -> does not crash
 
             //Tickets ordered by IL's requirements
-
             //Expected order 
             var expectedResponseILv1 = new List<String> { "1111111111", "91111111111", "224567890", "224567890", "9224567890", "6423121267", "96423121267", "81234567890" };
             //Assert ordered tickets
@@ -68,7 +67,6 @@ namespace OrderingTickets.Test
             //Externar Delivery input is ""
             ticketsILv5[0].ExternalDelivery.Equals("");
 
-
             //Tickets are not sorted because it's Mexico
             //Expected order 
             var expectedResponseticketsMXv1 = new List<String> { "5400121267", "91111111111", "95400121267", "1111111111", "224567890", "9224567890", "91234567890", "224567890" };
@@ -82,7 +80,6 @@ namespace OrderingTickets.Test
 
             //Externar Delivery input is ""
             ticketsMXv3[0].ExternalDelivery.Equals("");
-
         }
     }
 }
