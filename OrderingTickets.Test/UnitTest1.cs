@@ -16,11 +16,14 @@ namespace OrderingTickets.Test
             var ticketsILv1 = test.GetTicketsbyDocument("IL", "response1.json", 11, debitFlag);
             var ticketsILv2 = test.GetTicketsbyDocument("IL", "response4.json", 11, debitFlag);
             var ticketsILv3 = test.GetTicketsbyDocument("IL", "response3.json", 1234, debitFlag);
+            var ticketsILv4 = test.GetTicketsbyDocument("IL", "response6.json", 1234, debitFlag);
+            var ticketsILv5 = test.GetTicketsbyDocument("IL", "response5.json", 1234, debitFlag);
+
             var ticketsMXv1 = test.GetTicketsbyDocument("MX", "response2.json", 1234, debitFlag);
             var ticketsMXv2 = test.GetTicketsbyDocument("MX", "response6.json", 1234, debitFlag);
-            var ticketsILv4 = test.GetTicketsbyDocument("IL", "response6.json", 1234, debitFlag);
-            var ticketsMXv3 = test.GetTicketsbyDocument("IL", "response5.json", 1234, debitFlag);
-            var ticketsILv5 = test.GetTicketsbyDocument("MX", "response5.json", 1234, debitFlag);
+            var ticketsMxv3 = test.GetTicketsbyDocument("MX", "response5.json", 1234, debitFlag);
+            
+           
 
             // Tickets is not null
             Assert.IsNotNull(ticketsILv1);
@@ -33,30 +36,51 @@ namespace OrderingTickets.Test
             Assert.IsNotNull(ticketsILv4); //Receives empty list -> does not crash
 
             //Tickets ordered by IL's requirements
-            Assert.IsTrue(ticketsILv1[0].ExternalDelivery.Equals("1111111111"));
-            Assert.IsTrue(ticketsILv1[1].ExternalDelivery.Equals("91111111111"));
-            Assert.IsTrue(ticketsILv1[5].ExternalDelivery.Equals("6423121267"));
-            Assert.IsTrue(ticketsILv1[6].ExternalDelivery.Equals("96423121267"));
+            
+            //Expected order 
+            var expectedResponseILv1 = new String() {"1111111111", "91111111111", "224567890", "224567890", "9224567890", "6423121267", "96423121267", "81234567890" };
+            //Assert ordered tickets
+            for (int i = 0; i < expectedResponseILv1.length; i++){
+                Assert.IsTrue(ticketsILv1[i].ExternalDelivery.Equals(expectedResponseILv1[i]), "expectedResponseILv1 failed at index: " + i);
+            }
 
-            Console.WriteLine(ticketsILv2[0].ExternalDelivery);
+            //Expected order 
+            var expectedResponseticketsILv2 = new String() { "222", "2222", "2222222", "9222222", "2222222", "85412765" };
             //Tickets ordered by IL's requirements
-            Assert.IsTrue(ticketsILv2[0].ExternalDelivery.Equals("222"));
-            Assert.IsTrue(ticketsILv2[1].ExternalDelivery.Equals("2222"));
-            Assert.IsTrue(ticketsILv2[3].ExternalDelivery.Equals("9222222"));
-            Assert.IsTrue(ticketsILv2[4].ExternalDelivery.Equals("2222222"));
+            //Assert ordered tickets
+            for (int i = 0; i < expectedResponseticketsILv2.length; i++)
+            {
+                Assert.IsTrue(ticketsILv2[i].ExternalDelivery.Equals(expectedResponseticketsILv2[i]), "expectedResponseticketsILv2 failed at index: " + i);
+            }
 
-
+            //Expected order 
+            var expectedResponseticketsILv3 = new String() { "9111111111", "9123456789", "224567890", "224567890", "9224567890", "5400121267", "95400121267" };
             //Tickets ordered by IL's requirements
-            Assert.IsTrue(ticketsILv3[0].ExternalDelivery.Equals("9111111111"));
-            Assert.IsTrue(ticketsILv3[3].ExternalDelivery.Equals("224567890"));
-            Assert.IsTrue(ticketsILv3[5].ExternalDelivery.Equals("5400121267"),"Failed in index "+5);
+            //Assert ordered tickets
+            for (int i = 0; i < expectedResponseticketsILv3.length; i++)
+            {
+                Assert.IsTrue(ticketsILv3[i].ExternalDelivery.Equals(expectedResponseticketsILv3[i]), "expectedResponseticketsILv3 failed at index: " + i);
+            }
 
-             
-             //Tickets are not sorted because it's Mexico
-            Assert.IsTrue(ticketsMXv1[0].ExternalDelivery.Equals("5400121267"));
-            Assert.IsTrue(ticketsMXv1[4].ExternalDelivery.Equals("224567890"));
-            Assert.IsTrue(ticketsMXv1[6].ExternalDelivery.Equals("91234567890"));
-                
+
+            //Externar Delivery input is ""
+            ticketsILv5[0].ExternalDelivery.Equals("");
+
+            
+            //Tickets are not sorted because it's Mexico
+            //Expected order 
+            var expectedResponseticketsMXv1 = new String() { "222", "2222", "222222", "2222222", "85412765", "9222222" };
+            
+            //Assert ordered tickets
+            for (int i = 0; i < expectedResponseticketsMXv1.length; i++)
+            {
+                Assert.IsTrue(ticketsMXv1[i].ExternalDelivery.Equals(expectedResponseticketsMXv1[i]), "expectedResponseticketsMXv1 failed at index: " + i);
+            }
+
+
+            //Externar Delivery input is ""
+            ticketsMXv3[0].ExternalDelivery.Equals("");
+            
         }
     }
 }
