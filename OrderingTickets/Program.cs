@@ -66,7 +66,7 @@ class MainClass
 
     static void Main()
     {
-        List<TicketResponse> tickets = LoadJson("response6.json");
+        List<TicketResponse> tickets = LoadJson("response4.json");
         printData(tickets);
         sortData(tickets);
         Console.WriteLine("Sorted\n");
